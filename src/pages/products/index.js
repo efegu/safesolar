@@ -12,7 +12,7 @@ import configSettings from "@/config";
 import Link from "next/link";
 import useSession from "@/hooks/user/get-session";
 
-const Customers = () => {
+const Products = () => {
     const { data: session, isLoading } = useSession();
 
     const [customers, setCustomers] = useState([]);
@@ -224,4 +224,4 @@ const Customers = () => {
     );
 };
 
-export default Customers;
+export default Products;

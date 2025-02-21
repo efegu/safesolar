@@ -12,7 +12,7 @@ import Spinner from "@/components/Spinner";
 import configSettings from "@/config";
 import useSession from "@/hooks/user/get-session";
 
-const Customer = () => {
+const Products = () => {
     const { data: session, isLoading } = useSession();
 
     const [customer, setCustomer] = useState();
@@ -405,4 +405,4 @@ const Customer = () => {
     );
 };
 
-export default Customer;
+export default Prodcuts;
