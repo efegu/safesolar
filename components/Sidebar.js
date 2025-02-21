@@ -12,11 +12,18 @@ import ContentPasteSearchIcon from "@mui/icons-material/ContentPasteSearch";
 import AdminPanelSettingsOutlinedIcon from "@mui/icons-material/AdminPanelSettingsOutlined";
 import GroupAddOutlinedIcon from "@mui/icons-material/GroupAddOutlined";
 import FactCheckOutlinedIcon from "@mui/icons-material/FactCheckOutlined";
-
+import SpeedIcon from '@mui/icons-material/Speed';
+import Inventory2Icon from '@mui/icons-material/Inventory2';
 import logo from "../public/images/logo.png";
 import useSession from "@/hooks/user/get-session";
 
 const navigation = [
+    {
+        name: "Overview",
+        href: "/",
+        icon: SpeedIcon,
+        current: true,
+    },
     {
         name: "Inspections",
         href: "/inspections",
@@ -40,6 +47,12 @@ const navigation = [
         name: "Create Customer",
         href: "/create-customer",
         icon: GroupAddOutlinedIcon,
+        current: false,
+    },
+     {
+        name: "Products",
+        href: "/products",
+        icon: Inventory2Icon,
         current: false,
     },
 ];
