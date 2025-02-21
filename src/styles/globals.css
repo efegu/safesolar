@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground-rgb: 255, 255, 255;
+        --background-start-rgb: 0, 0, 0;
+        --background-end-rgb: 0, 0, 0;
+    }
+}
+
+html {
+    background-color: #f6f6f6;
+}
+
+.btn-animation:hover {
+    transform: scale(1.03);
+}
+
+.vertical-center {
+    transform: translate(0%, -50%);
+}
+
+.horizontal-center {
+    transform: translate(-50%, 0%);
+}
+
+/* alerts css */
+
+.Success {
+    border: 1px solid #34b55a;
+    background-color: #e0f5e6;
+}
+.Warning {
+    border: 1px solid #eba923;
+    background-color: #fcf3df;
+}
+.Error {
+    border: 1px solid #de3855;
+    background-color: #fae1e6;
+}
+.Info {
+    border: 1px solid #1ca3d1;
+    background-color: #dcf0f8;
+}
+
+/* react big calendaer styles */
+
+.rbc-day-bg {
+    overflow: scroll !important;
+}
+
+.rbc-agenda-table .rbc-header:nth-child(2) {
+    display: none;
+}
+
+.rbc-agenda-time-cell {
+    display: none !important;
+}
+
+.rbc-day-bg {
+    background-color: white;
+}
