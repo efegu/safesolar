@@ -166,7 +166,7 @@ const Customer = () => {
   return (
     <>
       <Head>
-        <title>Customer - Inspections - Safe Solar</title>
+        <title>Customer - Information - Safe Solar</title>
         <meta name="description" content="M2M SOFTWARES" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -209,7 +209,7 @@ const Customer = () => {
           <div className="flex items-center mt-8 px-4 sm:px-6 lg:px-8">
             <div className="flex-auto">
               <h1 className="text-3xl leading-6 text-gray-900">
-                Customer Inspections
+                Kunduppgifter
               </h1>
             </div>
             <div className="mt-4 sm:ml-16 sm:mt-0 sm:flex-none">
